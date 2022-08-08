@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="../p5.js"></script>
+  <!-- <script src="../addons/p5.sound.js"></script> -->
+  <script src="sketch.js"></script>
+</head>
+
+<form>
+ <label for="username" class="titles">Username: </label><br>
+ <input type="text" id="username" class="inputs"><br>
+ <label for="password" class="titles">Password: </label><br>
+ <input type="text" id="password" class="inputs">
+</form>
+
+<body>
+  <main>
+    <button type="button" onclick="verify()" style="position:absolute" id="submitbutton" class="newbutton">Submit</button>
+  </main>
+</body>
+
+</html>
