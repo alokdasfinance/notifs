@@ -1,10 +1,17 @@
+var x = 50;
+var b = 200;
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 400);
+  background(55);
 }
 
 function draw() {
-  background(51);
-  textSize(32);
-  fill(0, 50, 255);
-  text("cooper is bad at fortnite", 50, 50);
+
+}
+// draw rectangle the size of x(50) at position mouseX and mouseY
+function mousePressed() {
+  fill(100);
+  circle(mouseX, mouseY, x);
+
 }
